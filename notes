@@ -1,0 +1,23 @@
+Results for the extraLargeArray
+    insert 896.0567 ms
+    append 2.4633 ms
+
+Results for the LargeArray
+    insert 8.0777 ms
+    append 336.9 μs
+
+Results for the mediumArray
+    insert 252 μs
+    append 211.3 μs
+
+Results for the smallArray
+    insert 13 μs
+    append 7.2 μs
+
+Results for the tinyArray
+    insert 17.6 μs
+    append 4.3 μs
+
+insert is an O(n^2), it goes ul exponetially with the size of the array, append is an O(n) it goes up linearly with the size of the array.
+append scales better than insert, because the time at higher array lengths is significantly different.
+
